@@ -15,10 +15,6 @@ body {
   
   min-height: 100vh;
   background: rgb(78, 165, 194);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  color: white;
 }
 
 code {

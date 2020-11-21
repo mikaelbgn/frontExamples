@@ -1,0 +1,56 @@
+.carreToggle{
+  width: 25px;
+  height: 25px;
+  background-color: rgb(50, 60, 156);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+}
+
+.carreToggleOpen{
+  left: 200px;
+}
+
+
+.navbar{
+  background-color: cornflowerblue;
+  height: 100vh;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: -200px;
+}
+
+.navbarVisible{
+  left: 0;
+}
+
+
+.titreMenuToggle{
+  margin-top: 20px;
+  color: rgb(37, 55, 156);
+  text-align: center;
+}
+
+.listeLiens{
+  margin-top: 40px;
+  color: rgb(37, 55, 156);
+}
+
+.listeLiens li{
+  height: 40px;
+  padding-left: 15px;
+  line-height: 40px;
+}
+
+.listeLiens li:hover{
+  color: lightgrey;
+  cursor: pointer;
+  background-color: darkslateblue;
+}
